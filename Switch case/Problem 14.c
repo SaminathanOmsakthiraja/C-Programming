@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     int n;
-    float m;
+    int m;
     scanf("%d",&n);
-    scanf("%f",&m);
+    scanf("%d",&m);
     int amt=0;
     switch (n) {
         case 1:
