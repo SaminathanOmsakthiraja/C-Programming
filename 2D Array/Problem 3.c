@@ -8,13 +8,13 @@ int main() {
             scanf("%d",&arr[i][j]);
         }
     }
-    int bo;
+    int bo=0;
     for (int i=0;i<r;i++) {
         int co=0;
-        for (int j=1;j<c;j++) {
+        for (int j=0;j<c;j++) {
             int unco=0;
             int ele=arr[i][j];
-            for (int k=1;k<c;k++) {
+            for (int k=0;k<c;k++) {
                 if (ele!=arr[i][k]) {
                     unco++;
                 }
