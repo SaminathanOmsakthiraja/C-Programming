@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <limits.h>
+int main() {
+    int r,c;
+    scanf("%d %d",&r,&c);
+    int arr[r][c];
+    for (int i=0;i<r;i++) {
+        for (int j=0;j<c;j++)
+            scanf("%d",&arr[i][j]);
+    }
+    int count=0;
+    for (int i=0;i<r;i++) {
+        int eve=0,odd=0;
+        for (int j=0;j<c;j++) {
+            if (arr[i][j]%2==0) eve++;
+            else odd++;
+            }
+        if (eve==odd)
+            count++;
+        }
+    printf("%d\n",count);
+}
