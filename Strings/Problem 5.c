@@ -7,7 +7,7 @@ int main() {
     int len=strlen(str);
     char feed[len+1];
     int j=0;
-    for (int i=len-1;i>=0;i--) {
+    for (int i=len-2;i>=0;i--) {
         feed[j++]=str[i];
     }
     printf("%s",feed);
