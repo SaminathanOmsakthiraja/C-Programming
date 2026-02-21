@@ -3,11 +3,12 @@ Problems solved using C programming.
 And topics covered as following : 
   C-Programming/
     │
-    ├── Conditional Statements/
-    ├── For loop/
-    ├── Nested for loop/
-    ├── while loop/
-    ├── Arrays/1D Array/2D Array/
-    ├── Strings/
-    ├── Functions/
-    └── Pointers/
+    ├── Basic Print statements 
+    ├── Conditional Statements
+    ├── For loop
+    ├── Nested For loop
+    ├── while loop
+    ├── Arrays | 1D Array | 2D Array
+    ├── Strings
+    ├── Functions
+    └── Pointers|
