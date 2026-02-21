@@ -1,5 +1,5 @@
 # C-Programming
-Problems solved using C programming \n
+Problems solved using C programming.
 And topics covered as following : 
   C-Programming/
     │
