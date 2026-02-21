@@ -1,7 +1,7 @@
 # C-Programming
 Problems solved using C programming.
 And topics covered as following : 
-  C-Programming/
+  C-Programming -
     │
     ├── Basic Print statements 
     ├── Conditional Statements
